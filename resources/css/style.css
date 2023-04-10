@@ -1,0 +1,84 @@
+* {
+    font-family: 'Big Shoulders Inline Display', Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.nav {
+    margin-right: 100px;
+    font-size: 22px;
+}
+
+.item {
+    display:inline-flex;
+    list-style: none;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.brule {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.gif {
+    width: 50%;
+}
+
+.icon {
+    width: 10%;
+}
+
+.banner {
+    margin-top: 25px;
+    padding: 0px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.video {
+    margin: 25px 25px;
+    padding: 25px 5%;
+    border-top: solid white;
+}
+
+.youtube {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+.responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
