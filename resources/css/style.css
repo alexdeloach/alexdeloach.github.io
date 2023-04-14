@@ -82,3 +82,18 @@ h2 {
     width: 100%;
     height: 100%;
   }
+
+@media (max-width: 900px) {
+    .logo {
+        margin-left: 25px;
+
+    }
+
+    .nav {
+        margin-right: 25px;
+    }
+
+    .gif {
+        width: 75%;
+    }
+}
